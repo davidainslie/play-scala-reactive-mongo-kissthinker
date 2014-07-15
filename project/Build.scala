@@ -3,9 +3,11 @@ import Keys._
 import play.Project._
 
 object ApplicationBuild extends Build {
-
   val appName         = "play-scala-reactive-mongo-kissthinker"
+
   val appVersion      = "1.0-SNAPSHOT"
+
+  val scalaVersion    = "2.11.1"
 
   val appDependencies = Seq(
     // Add your project dependencies here,
